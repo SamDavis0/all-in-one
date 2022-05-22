@@ -4,12 +4,8 @@ import SearchBox from '../components/SearchBox'
 export default function Weather() {
   return (
     <div>
-      <Head>
-        <title>Weather</title>
-      </Head>
-
-      <div className="home">
-        <div className="container">
+      <div className="weatherhome">
+        <div className="weathercontainer">
           <SearchBox></SearchBox>
         </div>
       </div>
